@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0 40px;
+    height: 91px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.header__login {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.header__login:hover {
+    text-decoration: underline;
+}
+
+.signup__procedure {
+    margin: auto;
+    text-align: center;   
+    max-width: 300px;
+    margin-bottom: 150px;
+}
+
+.signup__procedure--img {
+    height: 70px;
+    max-width: 260px;
+    margin: 100px 0px 20px;
+}
+
+.signup__procedure--steps {
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.signup__procedure--title {
+    margin-top:  0px;
+}
+
+.signup__procedure--details {
+    font-size: 17px;
+}
+
+.form__btn {
+    padding: 12px 25px;
+    background-color: #e50914;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+}
+
+.form__btn:hover {
+    background-color: red;
+}
+
+.footer__list {
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    grid-template-rows: repeat(2, 30px);  
+    font-size: 13px;
+}
+
+.footer__title {
+    margin: 0 40px 30px;
+    color: #757575;
+    font-size: 16px;
+}
+
+.footer__title a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.footer__title a:hover {
+    text-decoration: underline;
+}
+
+.footer__list--item {
+    list-style: none;
+}
+
+.footer__list--item a {
+    text-decoration:none;
+    color: #757575;
+}
+
+.footer__list--item a:hover {
+    text-decoration: underline;
+}
+
+.idioma {
+    margin-left: 40px;
+    background: #fff;
+    color: #999;
+    border: 1px solid #999;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.footer__clarification {
+    text-align: right;
+    margin-right: 40px;
+    color: #101010;
+}

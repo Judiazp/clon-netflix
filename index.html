@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/index-style.css">
-    
+    <link rel="stylesheet" href="./css/index-style.css">
     <title>Netflix</title>
 </head>
 <body>
     <section class="welcome__container">
         <div class="main-header">
-            <img class="main-header__img" src="../img/icons8-netflix-144.png" class="logotype" alt="netflix">
-            <a class="main-header__login" href="./login.html">Iniciar sesión</a>
+            <img class="main-header__img" src="./img/icons8-netflix-144.png" class="logotype" alt="netflix">
+            <a class="main-header__login" href="./html/login.html">Iniciar sesión</a>
         </div>
         <div class="welcome__container--details">
             <h1 class="welcome__container--title">Películas y series <br> ilimitadas y mucho más.</h1>
             <h2 class="welcome__container--description">Disfruta donde quieras. Cancela cuando quieras.</h2>
-            <form action="/#" class="welcome__form">
+            <form action="./html/signup.html" class="welcome__form">
                 <h3 class="welcome__form--title">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3>
                 <label for="id_email" class="welcome__form--email">
-                    <input class="welcome__form--input" type="email" placeholder="Email">
+                    <input class="welcome__form--input" type="email" placeholder="Email" required>
                     <button class="welcome__form--btn" type="submit" class="welcome__form--btn">
                         COMIENZA YA
-                        <img class="welcome__btn--icons" src="../img/icons8-más-de-50.png" alt=""> 
+                        <img class="welcome__btn--icons" src="./img/icons8-más-de-50.png"> 
                     </button>
                 </label>
             </form>
@@ -130,10 +129,10 @@
                     </ul>
                 </li>
             </ul>
-            <form action="/#" class="welcome__form">
+            <form action="./signup.html" class="welcome__form">
                 <h3 class="welcome__form--title">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3>
                 <label for="id_email" class="welcome__form--email">
-                    <input class="welcome__form--input" type="email" placeholder="Email">
+                    <input class="welcome__form--input" type="email" placeholder="Email" required>
                     <button class="welcome__form--btn" type="submit" class="welcome__form--btn">
                         COMIENZA YA
                         <img class="welcome__btn--icons" src="../img/icons8-más-de-50.png" alt=""> 
@@ -194,6 +193,7 @@
                 <a href="/#">Originales de Netflix</a>
             </li>
         </ul>
+        <div>
         <select class="idioma" name="idioma" id="idioma">
             <option value="spanish" data-lenguaje="es">Español</option>
             <option value="english" data-lenguaje="in">Inglés</option>

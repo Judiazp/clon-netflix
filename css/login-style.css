@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%), url("../img/background-img-netflix-index.jpg");  
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    height: 87px;
+    margin: 0 56px;
+    align-items: center;
+    background-color: transparent;
+}
+
+.main-header__img {
+    height: 134px;
+    width: 134px;
+    padding: 0; 
+}
+
+.login {
+    margin: auto;
+    margin-bottom: 60px;
+    width: 435px;
+}
+
+.login__container {   
+    background-color: rgba(0,0,0,.75);
+    border-radius: 5px;
+    padding: 60px 68px 40px;
+}
+
+.form__main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 314px;
+}
+
+.form__main--input {
+
+    padding: 16px;
+    margin-bottom: 10px;
+    outline: none;
+    background-color: #333;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.form__main--btn {
+    padding: 16px;
+    background-color: #e50914;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 24px 0 12px 0;
+    width: 100%;
+}
+
+.form__btn:hover {
+    background-color: red;
+}
+
+.login_container--fb {
+    display: flex;
+}
+
+.login_container--fb a {
+    color: #737373;
+    text-decoration: none;
+    padding-left: 10px;
+    align-self: center;
+}
+
+.footer {
+    padding: 40px 25px;
+    margin: 0px;
+    background-color: #000000BF;
+}
+
+.footer__list {
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    grid-template-rows: repeat(2, 30px);  
+    font-size: 13px;
+}
+
+.footer__title {
+    margin: 0 40px 30px;
+    color: #757575;
+    font-size: 16px;
+}
+
+.footer__title a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.footer__title a:hover {
+    text-decoration: underline;
+}
+
+.footer__list--item {
+    list-style: none;
+}
+
+.footer__list--item a {
+    text-decoration:none;
+    color: #757575;
+}
+
+.footer__list--item a:hover {
+    text-decoration: underline;
+}
+
+.idioma {
+    margin-left: 40px;
+    background: #000;
+    color: #999;
+    border: 1px solid #333;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.footer__clarification {
+    text-align: right;
+    color: #999;
+}
