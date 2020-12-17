@@ -15,19 +15,30 @@
     <section class="login">
         <section class="login__container">
             <h1 class="login__container--title">Inicia sesión</h1>
-            <form class="form__main" action="./#">
-                <input class="form__main--input" type="email" placeholder="Email" required>
-                <input class="form__main--input" type="password" placeholder="Agrega una contraseña" required>
-                <button class="form__main--btn" type="submit">Inicia sesión</button>
+            <form class="form__container" action="./#">
+                <input class="form__container--input" type="email" placeholder="Email o número de telefóno" required>
+                <input class="form__container--input" type="password" placeholder="Agrega una contraseña" required>
+                <button class="form__container--btn" type="submit">Inicia sesión</button>
+                <label for="checkbox" class="login__info--check">
+                    <span>
+                        <input value="recuerdame" type="checkbox">Recuérdame 
+                    </span>
+                    <a class="login__info--ayuda" href="./#">¿Necesitas ayuda?</a>
+                </label>
             </form>
-            <label for="facebook" >
-                <a href="https://www.facebook.com/">
-                    <img src="../img/icons8-facebook-24.png" alt="logo-facebook">
-                </a>
-                <a href="https://www.facebook.com/">
-                    Inicia sesión con Facebook
-                </a>
-        </label>
+            <div class="login__info">
+                <label for="facebook" class="login__info--fb">
+                    <a href="https://www.facebook.com/">
+                        <img src="../img/icons8-facebook-24.png" alt="logo-facebook">
+                    </a>
+                    <a class="login__info--forfb" href="https://www.facebook.com/">Inicia sesión con Facebook</a>
+                </label>
+                <p class="login__info--sub">¿Primera vez en Netflix? <a href="./index.html">Suscribete ya</a> </p>
+                <p class="login__info--details">
+                    Esta página está protegida por Google reCAPTCHA para comprobar 
+                    que no eres un robot. <a href="./#">Más info.</a>
+                </p>
+            </div>
         </section>
     </section>
     <footer class="footer">
