@@ -167,10 +167,22 @@ body {
     margin-bottom: 8px;
 }
 
-.preguntas-frecuentes__list--item ul {
+.preguntas-frecuentes__list--respuesta {
     display: none;
     position: absolute;
     background: #303030;
+}
+
+.preguntas-frecuentes__list--respuesta-open {
+    display: flex;
+    position: relative;
+    background-color: #303030;
+    list-style: none;
+    padding: 24px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+    border-top: 1px solid #000;
 }
 
 .preguntas-frecuentes__list--btn {
