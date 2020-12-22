@@ -97,6 +97,8 @@ body {
     color: #FFF;
     font-weight: 400;
     font-size: 26px;  
+    display: flex;
+    align-items: center;
 }
 
 .welcome__form--btn:hover {
