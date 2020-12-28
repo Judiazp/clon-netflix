@@ -118,10 +118,14 @@ header {
     position: relative;
 }
 
+.carousel-title {
+    margin-left: 51px;
+}
+
 .carousel__container {
     display: flex;
     justify-content: center;
-    margin: 70px 55px;
+    margin-bottom: 70px;
     padding-bottom: 10px;
 }
 
@@ -129,24 +133,18 @@ header {
     width: 234px;
     height: 131px;
     border-radius: 5px;
-    overflow: hidden;
     margin-right: 2px;
     display: inline-block;
     cursor: pointer;
     transition: 500ms;
     transform-origin: center;
-    position: relative;
+    overflow: hidden;
 }
 
-.carousel__container:hover .carousel-item {
-    opacity: 0.3;
-    
-}
-
-.carousel__container:hover .carousel-item:hover {
+.carousel-item:hover {
     transform: scale(1.5);
-    opacity: 1;
-    
+    z-index: 500;
+    overflow: initial;
 }
 
 .carousel-item__img {
@@ -156,22 +154,26 @@ header {
 }
 
 .carousel-item__details {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-    font-size: 10px;
-    opacity: 0;
-    transition: 500ms opacity;
     padding: 10px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    color: white;
+    font-size: 10px;
+    width: 100%;
+}
+
+.bi-chevron-down {
+    margin-left: 110px;
+}
+
+.carousel-item__details--icons svg {
+    margin-right: 5px;
+}
+
+.carousel-item__details--icons svg:hover {
+    color: #333;
 }
 
 .footer {
     padding: 70px 45px;
-    margin: 0px;
+    margin-top: 700px; /* antes margin: 0px; */
 }
 
 .footer__list {
